@@ -87,13 +87,13 @@
     <!-- NAVBAR 2 -->
     <section class="bg-white shadow-lg sticky z-50 top-0">
         <div class="hidden md:flex justify-center items-center space-x-1 -ml-8">
-            <a href="#AboutConsulting" class="text-lg font-medium lg:text-xl py-5 px-3 hover:underline">About Consulting</a>
-            <a href="#Packages" class="text-lg font-medium lg:text-xl py-5 px-3 hover:underline">Packages</a>
-            <a href="#Consultants" class="text-lg font-medium lg:text-xl py-5 px-3 hover:underline">Our Consultants</a>
+            <a href="#AboutConsulting" class="text-lg font-medium lg:text-xl py-4 px-3 hover:underline">About Consulting</a>
+            <a href="#Packages" class="text-lg font-medium lg:text-xl py-4 px-3 hover:underline">Packages</a>
+            <a href="#Consultants" class="text-lg font-medium lg:text-xl py-4 px-3 hover:underline">Our Consultants</a>
         </div>
 
         <!-- HAMBURG ICON FOR SMALLER WINDOWS -->
-        <div class="flex md:hidden items-center justify-center py-5">
+        <div class="flex md:hidden items-center justify-center py-4">
             <button id="nav-menu-toggle">
                 <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -110,13 +110,13 @@
     {{-- NAVBAR 2 END --}}
 
     <!-- ABOUT CONSULTING -->
-    <section id="AboutConsulting" class="bg-primary flex flex-col md:flex-row p-5">
+    <section id="AboutConsulting" class="bg-primary flex flex-col md:flex-row p-4">
         <div class="max-w-auto text-justify text-xl sm:text-sm md:text-lg lg:text-2xl">
             <p>
-                Mental health <strong class="font-bold text-5xl">C</strong>onsulting or psychological consulting, involves providing expert advice, guidance, and support in matters related to mental health and well-being. 
-                Mental consultants typically work with individuals, organizations, or businesses to address various issues such as stress management, workplace conflicts, employee well-being, 
-                personal development, and organizational effectiveness. They may offer assessments, counseling, training, and strategies to help clients improve mental health, enhance resilience, 
-                and foster positive relationships.
+                Mental health <strong class="font-bold text-5xl">K</strong>onsultasi psikologis melibatkan pemberian nasihat, bimbingan, dan dukungan ahli dalam hal-hal yang berkaitan 
+                dengan kesehatan mental dan kesejahteraan. Konsultan mental biasanya bekerja dengan individu, organisasi, atau bisnis untuk menangani berbagai masalah seperti manajemen 
+                stres, konflik di tempat kerja, kesejahteraan karyawan, pengembangan pribadi, dan efektivitas organisasi. Mereka dapat menawarkan penilaian, konseling, pelatihan, dan 
+                strategi untuk membantu klien meningkatkan kesehatan mental, meningkatkan ketahanan, dan membina hubungan yang positif.
             </p>
         </div>
     </section>
@@ -124,25 +124,25 @@
     
     <!-- PACKAGES -->
     <section id="Packages">
-        <div class="text-2xl font-semibold text-center py-5">
+        <div class="text-2xl font-semibold text-center py-4">
             <span>PACKAGES</span>
         </div>
         <div class="flex items-center justify-center container mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <!-- PRICE CARD 1 -->
-                <div class="card mt-3 mx-5">
-                    <div class="p-5 flex-col bg-gray-800 rounded-xl">
+                <div class="card mt-3 mx-4">
+                    <div class="p-4 flex-col bg-gray-800 rounded-xl">
                         <h4 class="text-gray-300 text-lg font-medium">Basic Plan</h4>
                         <div class="flex items-baseline text-white">
                             <span class="text-4xl font-bold">Rp50k</span>
                             <span class="text-xl font-normal text-gray-300">/month</span>
                         </div>
-                        <hr class="my-5">
+                        <hr class="my-4">
                         <a href="#Article" class="flex justify-center items-center px-3 py-3 text-md font-medium text-center text-black bg-primary rounded-lg hover:bg-blue-700 hover:text-white">
                             Purchase Now
                         </a>
-                        <hr class="my-5">
-                        <ul role="list" class="space-y-5 my-7">
+                        <hr class="my-4">
+                        <ul role="list" class="space-y-4 my-7">
                             <li class="flex items-center">
                                 <svg class="flex-shrink-0 w-4 h-4 text-red-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
@@ -168,19 +168,19 @@
                 </div>
 
                 <!-- PRICE CARD 2 -->
-                <div class="card mt-3 mx-5">
-                    <div class="p-5 flex-col bg-gray-800 rounded-xl">
+                <div class="card mt-3 mx-4">
+                    <div class="p-4 flex-col bg-gray-800 rounded-xl">
                         <h4 class="text-gray-300 text-lg font-medium">Standard Plan</h4>
                         <div class="flex items-baseline text-white">
                             <span class="text-4xl font-bold">Rp150k</span>
                             <span class="text-xl font-normal text-gray-300">/month</span>
                         </div>
-                        <hr class="my-5">
+                        <hr class="my-4">
                         <a href="#Article" class="flex justify-center items-center px-3 py-3 text-md font-medium text-center text-black bg-primary rounded-lg hover:bg-blue-700 hover:text-white">
                             Purchase Now
                         </a>
-                        <hr class="my-5">
-                        <ul role="list" class="space-y-5 my-7">
+                        <hr class="my-4">
+                        <ul role="list" class="space-y-4 my-7">
                             <li class="flex items-center">
                                 <svg class="flex-shrink-0 w-4 h-4 text-red-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
@@ -206,19 +206,19 @@
                 </div>
 
                 <!-- PRICE CARD 3 -->
-                <div class="card mt-3 mx-5">
-                    <div class="p-5 flex-col bg-gray-800 rounded-xl">
+                <div class="card mt-3 mx-4">
+                    <div class="p-4 flex-col bg-gray-800 rounded-xl">
                         <h4 class="text-gray-300 text-lg font-medium">Premium Plan</h4>
                         <div class="flex items-baseline text-white">
                             <span class="text-4xl font-bold">Rp250k</span>
                             <span class="text-xl font-normal text-gray-300">/month</span>
                         </div>
-                        <hr class="my-5">
+                        <hr class="my-4">
                         <a href="#Article" class="flex justify-center items-center px-3 py-3 text-md font-medium text-center text-black bg-primary rounded-lg hover:bg-blue-700 hover:text-white">
                             Purschase Now
                         </a>
-                        <hr class="my-5">
-                        <ul role="list" class="space-y-5 my-7">
+                        <hr class="my-4">
+                        <ul role="list" class="space-y-4 my-7">
                             <li class="flex items-center">
                                 <svg class="flex-shrink-0 w-4 h-4 text-red-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
@@ -244,19 +244,19 @@
                 </div>
 
                 <!-- PRICE CARD 4 -->
-                <div class="card mt-3 mx-5">
-                    <div class="p-5 flex-col bg-gray-800 rounded-xl">
+                <div class="card mt-3 mx-4">
+                    <div class="p-4 flex-col bg-gray-800 rounded-xl">
                         <h4 class="text-gray-300 text-lg font-medium">Ultimate Plan</h4>
                         <div class="flex items-baseline text-white">
                             <span class="text-4xl font-bold">Rp350k</span>
                             <span class="text-xl font-normal text-gray-300">/month</span>
                         </div>
-                        <hr class="my-5">
+                        <hr class="my-4">
                         <a href="#Article" class="flex justify-center items-center px-3 py-3 text-md font-medium text-center text-black bg-primary rounded-lg hover:bg-blue-700 hover:text-white">
                             Purchase Now
                         </a>
-                        <hr class="my-5">
-                        <ul role="list" class="space-y-5 my-7">
+                        <hr class="my-4">
+                        <ul role="list" class="space-y-4 my-7">
                             <li class="flex items-center">
                                 <svg class="flex-shrink-0 w-4 h-4 text-red-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
@@ -289,67 +289,67 @@
 
     <!-- CONSULTANTS -->
     <section id="Consultants">
-        <div class="text-2xl font-semibold text-center py-5">
+        <div class="text-2xl font-semibold text-center py-4">
             <span>Our Consultants</span>
         </div>
-        <div class="text-center items-center pb-5 sm:text-sm md:text-lg">
+        <div class="text-center items-center pb-4 sm:text-sm md:text-lg">
             <span>All consultants are proven professionals with masters degree in Psychology and more than five year experience on consulting</span>
         </div>
         <div class="flex flex-row justify-center container mx-auto">
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-5 hover:bg-gray-200">
+                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-4 hover:bg-gray-200">
                     <div class="flex flex-col items-center pb-10">
-                        <span class="mt-5 text-sm text-gray-600">Psychologist</span>
-                        <img src="asset/home/profilewoman.png" class="w-20 h-20 my-5 rounded-full shadow-lg" alt="Profile image"/>
+                        <span class="mt-4 text-sm text-gray-600">Psychologist</span>
+                        <img src="asset/home/profilewoman.png" class="w-20 h-20 my-4 rounded-full shadow-lg" alt="Profile image"/>
                         <h5 class="mb-1 mx-2 text-center text-lg md:text-xl font-medium text-black">Harper Wilson M.Psi</h5>
                     </div>
                 </div>
-                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-5 hover:bg-gray-200">
+                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-4 hover:bg-gray-200">
                     <div class="flex flex-col items-center pb-10">
-                        <span class="mt-5 text-sm text-gray-600">Psychologist</span>
-                        <img src="asset/home/girl.png" class="w-20 h-20 my-5 rounded-full shadow-lg" alt="Profile image"/>
+                        <span class="mt-4 text-sm text-gray-600">Psychologist</span>
+                        <img src="asset/home/girl.png" class="w-20 h-20 my-4 rounded-full shadow-lg" alt="Profile image"/>
                         <h5 class="mb-1 mx-2 text-center text-lg md:text-xl font-medium text-black">Quinn Garcia M.Psi</h5>
                     </div>
                 </div>
-                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-5 hover:bg-gray-200">
+                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-4 hover:bg-gray-200">
                     <div class="flex flex-col items-center pb-10">
-                        <span class="mt-5 text-sm text-gray-600">Psychologist</span>
-                        <img src="asset/home/bussiness-man.png" class="w-20 h-20 my-5 rounded-full shadow-lg" alt="Profile image"/>
+                        <span class="mt-4 text-sm text-gray-600">Psychologist</span>
+                        <img src="asset/home/bussiness-man.png" class="w-20 h-20 my-4 rounded-full shadow-lg" alt="Profile image"/>
                         <h5 class="mb-1 mx-2 text-center text-lg md:text-xl font-medium text-black">Cameron Mitchell M.Psi</h5>
                     </div>
                 </div>
-                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-5 hover:bg-gray-200">
+                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-4 hover:bg-gray-200">
                     <div class="flex flex-col items-center pb-10">
-                        <span class="mt-5 text-sm text-gray-600">Psychologist</span>
-                        <img src="asset/home/user.png" class="w-20 h-20 my-5 rounded-full shadow-lg" alt="Profile image"/>
+                        <span class="mt-4 text-sm text-gray-600">Psychologist</span>
+                        <img src="asset/home/user.png" class="w-20 h-20 my-4 rounded-full shadow-lg" alt="Profile image"/>
                         <h5 class="mb-1 mx-2 text-center text-lg md:text-xl font-medium text-black">Skylar Davis M.Psi</h5>
                     </div>
                 </div>
-                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-5 hover:bg-gray-200">
+                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-4 hover:bg-gray-200">
                     <div class="flex flex-col items-center pb-10">
-                        <span class="mt-5 text-sm text-gray-600">Psychologist</span>
-                        <img src="asset/home/man.png" class="w-20 h-20 my-5 rounded-full shadow-lg" alt="Profile image"/>
+                        <span class="mt-4 text-sm text-gray-600">Psychologist</span>
+                        <img src="asset/home/man.png" class="w-20 h-20 my-4 rounded-full shadow-lg" alt="Profile image"/>
                         <h5 class="mb-1 mx-2 text-center text-lg md:text-xl font-medium text-black">Bailey Jackson M.Psi</h5>
                     </div>
                 </div>
-                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-5 hover:bg-gray-200">
+                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-4 hover:bg-gray-200">
                     <div class="flex flex-col items-center pb-10">
-                        <span class="mt-5 text-sm text-gray-600">Psychologist</span>
-                        <img src="asset/home/userman.png" class="w-20 h-20 my-5 rounded-full shadow-lg" alt="Profile image"/>
+                        <span class="mt-4 text-sm text-gray-600">Psychologist</span>
+                        <img src="asset/home/userman.png" class="w-20 h-20 my-4 rounded-full shadow-lg" alt="Profile image"/>
                         <h5 class="mb-1 mx-2 text-center text-lg md:text-xl font-medium text-black">Hayden Thomas M.Psi</h5>
                     </div>
                 </div>
-                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-5 hover:bg-gray-200">
+                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-4 hover:bg-gray-200">
                     <div class="flex flex-col items-center pb-10">
-                        <span class="mt-5 text-sm text-gray-600">Psychologist</span>
-                        <img src="asset/home/profileboy.png" class="w-20 h-20 my-5 rounded-full shadow-lg" alt="Profile image"/>
+                        <span class="mt-4 text-sm text-gray-600">Psychologist</span>
+                        <img src="asset/home/profileboy.png" class="w-20 h-20 my-4 rounded-full shadow-lg" alt="Profile image"/>
                         <h5 class="mb-1 mx-2 text-center text-lg md:text-xl font-medium text-black">Reagan Roberts M.Psi</h5>
                     </div>
                 </div>
-                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-5 hover:bg-gray-200">
+                <div class="w-40 sm:w-32 md:w-40 lg:w-48 border border-gray-300 rounded-lg shadow m-4 hover:bg-gray-200">
                     <div class="flex flex-col items-center pb-10">
-                        <span class="mt-5 text-sm text-gray-600">Psychologist</span>
-                        <img src="asset/home/profileman.png" class="w-20 h-20 my-5 rounded-full shadow-lg" alt="Profile image"/>
+                        <span class="mt-4 text-sm text-gray-600">Psychologist</span>
+                        <img src="asset/home/profileman.png" class="w-20 h-20 my-4 rounded-full shadow-lg" alt="Profile image"/>
                         <h5 class="mb-1 mx-2 text-center text-lg md:text-xl font-medium text-black">Dakota Harris M.Psi</h5>
                     </div>
                 </div>
@@ -358,7 +358,7 @@
     </section>
 
     {{-- Footer Start --}}
-    <footer class="bg-primary mt-5 p-4">
+    <footer class="bg-primary mt-4 p-4">
         <div class="flex justify-between">
             <div>
                 <a href="homeafter">
@@ -414,11 +414,11 @@
                     <img src="asset/home//instagram.png" alt="Instagram" class="h-6 w-6">
                     <span class="sr-only">Instagram page</span>
                 </a>
-                <a href="https://x.com" class="ms-5">
+                <a href="https://x.com" class="ms-4">
                     <img src="asset/home//twitter.png" alt="Twitter/X" class="h-6 w-6">
                     <span class="sr-only">Twitter/X page</span>
                 </a>
-                <a href="https://facebook.com" class="ms-5 me-10">
+                <a href="https://facebook.com" class="ms-4 me-10">
                     <img src="asset/home/facebook.png" alt="Facebook" class="h-6 w-6">
                     <span class="sr-only">Facebook account</span>
                 </a>
